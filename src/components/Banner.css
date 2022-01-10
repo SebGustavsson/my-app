@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,300;1,500&display=swap');
+
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/team_58.png");
+    height: 80vh;
+    background-size: cover;
+    width: auto;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.banner h1 {
+  top: 60%;
+  position: relative;
+}
+.banner h2 {
+  top: 60%;
+  position: relative;
+}
+
+.banner a:hover {
+  color: gray;
+}

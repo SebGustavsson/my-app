@@ -1,0 +1,11 @@
+.iconlinks {
+  display: flex;
+  position: relative;
+  top: 60%;
+  justify-content: center;
+  column-gap: 4px;
+  color: #fff;
+}
+.iconlinks a {
+  color: #fff;
+}
