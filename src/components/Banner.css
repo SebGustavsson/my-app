@@ -2,9 +2,10 @@
 
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/team_58.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/team_58.png"); 
     height: 80vh;
     background-size: cover;
+    background-position: center top;
     width: auto;
     overflow: hidden;
     color: #fff;
