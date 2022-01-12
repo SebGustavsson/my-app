@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@1,300;1,500&display=swap');
 
 .skills-card {
+  display: flex;
   height: 40vh;
   width: 60vw;
   border-radius: 8px;

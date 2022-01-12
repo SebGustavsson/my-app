@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 .about-card {
-  height: 30vh;
-  width: 60vw;
+  width: 60%;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,.15);
   margin: 0px auto;
-  margin-top: 16px;
+  margin-top: 2%;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .about-card img {
-  margin-top: 16px;
-  border-radius: 8px;
+  margin-top: 2%;
+  border-radius: 1%;
+  margin-bottom: 2%;
 }
 
 .about-card a {
@@ -22,4 +22,9 @@
 
 .about-card a:hover {
   color: darkcyan
+}
+
+.about-card p  {
+  margin-left: 1%;
+  margin-right: 1%;
 }
