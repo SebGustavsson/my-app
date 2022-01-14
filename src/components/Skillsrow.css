@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.skills-row-between {
+        justify-content: space-around;
+        display: flex;
+        margin-top: 10%;
+        flex-wrap: wrap;
+    }
+
+
+.skills-row-column {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
