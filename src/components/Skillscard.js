@@ -4,9 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3Alt, faHtml5, faReact, faJsSquare, faNode, faGitAlt, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 import { faFile, faGem } from '@fortawesome/free-solid-svg-icons'
 import './Skillsrow.css'
+//import AOS from 'aos';
+//import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+//AOS.init();
 
 const Skillscard = () => {
-    return <div className="skills-card">
+    return <div className="skills-card" data-aos="fade-in">
         <div className="skills-row-between">
            <div className="skills-row-column"><FontAwesomeIcon icon={faCss3Alt} size="5x" color="#0073ff" /><p>CSS</p></div>
            <div className="skills-row-column"><FontAwesomeIcon icon={faHtml5} size="5x" color="#f30" /><p>HTML</p></div>
