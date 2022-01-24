@@ -1,12 +1,9 @@
 import './Myskills.css'
-import Zoom from 'react-reveal/Zoom';
 
 const MySkills = () => {
-    return <div className="title">
-        <Zoom left>
-            <h1>My skills</h1>
-        </Zoom>
-    </div>
+  return <div className="title">
+    <h1>My skills</h1>
+  </div>
 }
 
 export default MySkills;

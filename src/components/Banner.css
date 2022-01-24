@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko');
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/team_58.png"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/team_58.png");
     height: 80vh;
     background-size: cover;
     background-position: center top;
@@ -11,19 +11,44 @@
     color: #fff;
     font-family: 'Teko', sans-serif;
     text-align: center;
-    position: relative;
   }
 
 .banner h1 {
   top: 55%;
   position: relative;
   font-size: 350%;
+  font-weight: 500;
 }
 .banner h2 {
   font-weight: 300;
   top: 50%;
   position: relative;
   font-size: 38px;
+}
+
+@media only screen and (max-width: 358px) {
+.banner h1 {
+  top: 43%;
+}
+.banner h2 {
+  top: 38%;
+}
+}
+
+@media only screen and (max-height: 658px) {
+.banner h1 {
+  top: 45%;
+  }
+  .banner h2 {
+  top: 38%;
+}
+}
+
+
+@media only screen and (max-height: 535px) {
+  .banner h2 {
+    top: 32%;
+  }
 }
 
 .banner a:hover {

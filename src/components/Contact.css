@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@1,300;1,500&display=swap');
+
+.contact {
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 3em;
+}
+.contact a {
+  color: lightskyblue;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: darkcyan;
+}

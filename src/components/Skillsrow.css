@@ -5,6 +5,7 @@
         display: flex;
         margin-top: 10%;
         flex-wrap: wrap;
+
     }
 
 
@@ -15,3 +16,11 @@
     font-weight: bold;
     align-items: center;
 }
+
+.skills-row-bottom {
+        justify-content: space-around;
+        display: flex;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
