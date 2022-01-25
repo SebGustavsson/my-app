@@ -6,6 +6,7 @@ import Skillscard from './components/Skillscard';
 import MySkills from './components/Myskills';
 import ContactCard from './components/Contactcard';
 import Contact from './components/Contact';
+import Metatags from './components/Metatags';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <Skillscard />
       <Contact text="Contact"></Contact>
       <ContactCard />
-
+      <Metatags />
     </div>
   );
 }
